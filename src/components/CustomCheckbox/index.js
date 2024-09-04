@@ -1,9 +1,3 @@
-import { Checkbox } from "antd";
-import React from "react";
+import CustomCheckbox from "./CustomCheckbox";
 
-const CustomCheckbox = (props) => (
-  <Checkbox checked={props.checked} onChange={props.onChange} id={props.id}>
-    {props.title}
-  </Checkbox>
-);
 export default CustomCheckbox;

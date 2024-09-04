@@ -1,5 +1,5 @@
-import MainPage from "./MainPage/MainPage";
+import Todo from "./Todo";
 
 export default {
-  MainPage,
+  Todo,
 };

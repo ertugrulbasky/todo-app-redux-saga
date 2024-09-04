@@ -1,7 +1,3 @@
-import { Input } from "antd";
-import React from "react";
+import CustomInput from "./CustomInput";
 
-const CustomInput = (props) => (
-  <Input className={props.className} onChange={props.onChange} placeholder={props.placeholder}></Input>
-);
 export default CustomInput;
